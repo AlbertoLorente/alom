@@ -1,0 +1,57 @@
+html {
+    height: 100vh;
+}
+body {
+    height: 100vh;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #00aec7;
+    background-image: url(img/webdev.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: relative;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+}
+header {
+    background-color: #008599;
+}
+h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+main {
+    display: flex;
+}
+.foto img{
+    margin: 20px;
+    display: flex;
+    border-radius: 10%;
+}
+.tarjeta {
+
+}
+.experiencia {
+    display: flex;
+}
+.estudios {
+    display: flex;
+}
+.certificados {
+    display: flex;
+}
+
+footer {
+    background-color: #008599;
+}
+.contacto {
+    display: flex;
+    justify-content: space-around;
+}
+.telefono, .email {
+    margin-top: 10px;
+    font-weight: bold;
+}
